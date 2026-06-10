@@ -3,7 +3,7 @@
 This README tells the story of how I turned two raw data files into a working predictive pipeline for Alzheimer's disease. I wrote a set of focused notebooks to build the pipeline step by step, then combined them in [`Alzheimer_data_analysis_model_pipeline.ipynb`](Alzheimer_data_analysis_model_pipeline.ipynb) for a complete end-to-end run.
 
 ## Project Workflow
-![Project Workflow](project workflow.png)
+![Project Workflow](project_workflow.png)
 
 I started the project with two files: one containing proteomic intensity measurements and one containing clinical metadata. From there I preprocessed the proteomic measurements, merged the cleaned protein intensities with the clinical table, tried a simple binary classifier, and then addressed a major issue class imbalance before selecting a final model.
 
